@@ -1,0 +1,25 @@
+body {
+    background-image: url(clock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+  }
+  
+  
+
+#Dc{
+color:rgb(214, 239, 248);
+text-align:center;
+align-items: center;
+padding:5%;
+padding-top :5%;
+margin:auto;
+width:5em;
+height:5em;
+border:rgb(9, 13, 17) 10px solid;
+border-radius:50%;
+font:3em Arial;
+background-color: rgb(56, 63, 64);
+
+}

@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <h1><label for="new-task">ADD LIST YOU WANT TO DO </label></h1>
+        <input id="new-task" type="text"><button>Add</button>
+      </p>
+      
+      <h1>To do</h1>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>GYM</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li class="editMode"><input type="checkbox"><label>BIKE SERVICE</label><input type="text" value="BIKE SERVICE"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        
+      </ul>
+      
+      <h1>Completed</h1>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>COMPLETE PROJECT ON HTML CSS</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="todo.js"></script>
+
+  </body>
+</html>
